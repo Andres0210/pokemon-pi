@@ -1,0 +1,38 @@
+.container {
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button {
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color: #007bff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff7f00;
+    font-weight: bold;
+}
+
+.container button:hover {
+    box-shadow: 0 0 10px #007bff;
+    cursor: pointer;
+    
+}
+
+.container img {
+    width: 700px;
+}
+
+.container h1 {
+    color: #C7D3DD;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}

@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+    margin: 60px 0 0 20px;
+    padding: 10px;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+.container h5 {
+    background-color: azure;
+    width: 85px;
+    margin: 15 auto;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.filtersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.selects {
+    width: 150px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: antiquewhite;
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

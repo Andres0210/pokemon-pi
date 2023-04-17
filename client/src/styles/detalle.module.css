@@ -1,0 +1,205 @@
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    background: #8e9eab;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    opacity: .95;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpaperaccess.com/full/20993.jpg');
+    background-size: cover;
+    height: 720px;
+}
+
+.homeButton {
+    align-self: baseline;
+    margin-left: 20px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #7b4397 0%, #dc2430 75%);
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+}
+
+.id {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #312f2f;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.name {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 40px;
+    color: #312f2f;
+}
+
+.imageTypes {
+    display: flex;
+}
+
+.imageContainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px #b4460f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+}
+
+.imageContainer img {
+    width: 250px;
+    height: 250px;
+}
+
+.typesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    align-items: center;
+}
+
+.typesContainer h5 {
+    text-transform: uppercase;
+    background-color: #e46666;
+    border-radius: 10PX;
+    height: 30px;
+    text-align: center;
+    color: #312f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    margin-top: 2px;
+    font-weight: bold;
+
+}
+
+.skillsContainer {
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.pointsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 0 10px;
+    align-items: baseline;
+    width: 635px;
+    justify-content: space-around;
+}
+
+.pointsContainer h5 {
+    margin: 3px;
+    text-transform: uppercase;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 500px;
+}
+
+.barra h5 {
+    margin: 10px;
+    color: #312f2f;
+}
+
+.barra span.valor {
+    font-weight: bold;
+    margin-left: 8px;
+    color: #999;
+}
+
+.barraProgreso {
+    height: 15px;
+    background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+    border-radius: 10px 0 0 10px;
+}
+
+.backBarra {
+    width: 380px;
+    border-radius: 10px;
+    border: 0.5px #360940 solid;
+}
+
+.weightHeight {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weightHeight h5 {
+    margin: 10px 0 10px 0;
+}
+
+.weight h5 {
+    color: #312f2f;
+}
+
+.height h5 {
+    color: #312f2f;
+}
+
+.weight h5 span {
+    font-size: 40px;
+    color: #400915;
+    margin-left: 15px;
+}
+
+.height h5 span {
+    margin-left: 15px;
+    color: #400915;
+    font-size: 40px;
+}
