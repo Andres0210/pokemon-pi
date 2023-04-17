@@ -4,6 +4,9 @@ import LandingPage from './components/LandingPage';
 import HomePage from './components/HomePage';
 import Formulario from './components/formulario';
 import DetailPage from './components/Detail.Page';
+import axios from 'axios';
+
+axios.defaults.baseURL = 'http://localhost:3001';
 
 function App() {
   return (

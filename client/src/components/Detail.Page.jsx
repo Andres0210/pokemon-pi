@@ -16,7 +16,7 @@ const DetailPage = () => {
 
     const getDetail = async (id) => {
       try {
-        const response = await axios.get(`http://localhost:3001/pokemons/${id}`);
+        const response = await axios.get(`/pokemons/${id}`);
         setDetalle(response.data)
 
       } catch (error) {

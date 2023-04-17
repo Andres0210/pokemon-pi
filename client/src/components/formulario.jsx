@@ -88,7 +88,7 @@ const Formulario = () => {
 
         else {
             event.preventDefault();
-            axios.post('http://localhost:3001/pokemons', newPokemon)
+            axios.post('/pokemons', newPokemon)
                 .then(response => {
                     window.alert(response.data)
                 })
